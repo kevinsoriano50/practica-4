@@ -1,0 +1,29 @@
+/*
+Autor: Dyel Acosta, Mateo Ismael, Kevin Daniel.
+Programa: Calculo de Area
+Fecha: 3/02/2021
+*/
+
+#include<stdio.h>
+#include <math.h>
+int main() {
+
+ float pago, horas, circunferencia, pagopromedio;
+
+ printf("deme su pago semanal en dolares\n");
+ printf("pago:");
+ scanf("%d",&pago);
+
+ printf("\nDeme las horas trabajadas:");
+ printf("\horas: ");
+ scanf("%d",&horas);
+
+ pagopromedio=pago/horas;
+
+ printf("\tu pago promedio por hora es",pagopromedio);
+
+return 0;
+
+}
+
+
